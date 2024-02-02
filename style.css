@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #002339;
+  color: white;
+}
+
+.container {
+  margin: 8rem 5rem;
+  width: 100vh;
+  padding: 1rem;
+  max-width: 700px;
+}
+
+.container h1 span {
+  color: #019f55;
+  border-bottom: 3px solid #019f55;
+  margin: 5rem 0;
+}
+
+.container h1 {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.container .display {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-left: 1rem;
+  width: 30rem;
+  line-height: 4rem;
+  border-radius: 5px;
+}
+
+.display #password {
+  width: 27rem;
+  line-height: 4rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.display i {
+  color: black;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  height: 3rem;
+  width: 18rem;
+  background-color: #019f55;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  background-color: #019f55;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button i {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
