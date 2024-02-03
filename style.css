@@ -33,7 +33,7 @@ body {
   background-color: white;
   padding-left: 1rem;
   width: 30rem;
-  line-height: 4rem;
+  height: 4.5rem;
   border-radius: 5px;
 }
 
@@ -55,11 +55,12 @@ body {
 
 .button {
   display: flex;
-  height: 3rem;
+  height: 3.5rem;
   width: 18rem;
   background-color: #019f55;
   margin: 2rem 0;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button {
